@@ -32,7 +32,24 @@ namespace Beheer
                         "~/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js",
                         "~/vendors/moment/min/moment.min.js",
                         "~/vendors/bootstrap-daterangepicker/daterangepicker.js",
+                        "~/vendors/fullcalendar/dist/fullcalendar.min.js",
+                        "~/vendors/raphael/raphael.min.js",
+                        "~/vendors/morris/morris.min.js",
+                        "~/vendors/echarts/dist/echarts.min.js",
+                        "~/vendors/echarts/map/js/world.js",
+                        "~/vendors/jqvmap/dist/jquery.vmap.js",
+                        "~/vendors/jqvmap/dist/maps/jquery.vmap.world.js",
+                        "~/vendors/jqvmap/dist/maps/jquery.vmap.usa.js",
+                        "~/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js",
+                        "~/vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js",
+                        "~/vendors/switchery/dist/switchery.min.js",
+                        "~/vendors/select2/dist/js/select2.full.min.js",
+                        "~/vendors/parsleyjs/dist/parsley.min.js",
+                        "~/vendors/autosize/dist/autosize.min.js",
+                        "~/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js",
+                        "~/vendors/starrr/dist/starrr.js",
                         "~/scripts/js/custom.min.js"));
+
 
             //css
             bundles.Add(new StyleBundle("~/styles/global").Include(
@@ -43,6 +60,8 @@ namespace Beheer
                         "~/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css",
                         "~/vendors/jqvmap/dist/jqvmap.min.css",
                         "~/vendors/bootstrap-daterangepicker/daterangepicker.css",
+                        "~/vendors/fullcalendar/dist/fullcalendar.min.css",
+                        "~/vendors/fullcalendar/dist/fullcalendar.print.css",
                         "~/css/custom.min.css"));
         }
     }
